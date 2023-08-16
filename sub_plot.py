@@ -25,4 +25,6 @@ ax[1][1].set_xlabel('x value')
 ax[0][0].set_ylabel('y value')
 
 fig.suptitle('Sub Plots Example')
+
+plt.tight_layout()
 plt.show()
